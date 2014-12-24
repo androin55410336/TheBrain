@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="39dp"
+        android:text="คำแนะนำ"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtr1"
+        android:layout_marginTop="23dp"
+        android:text="1. สังเกตุmessage ที่ปรากฏ และจดจำให้ได้ เพราะ message ดังกล่าวจะหายไปหลังจากปรากฏ" />
+
+    <TextView
+        android:id="@+id/txtr3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtr1"
+        android:layout_below="@+id/txtr2"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="32dp"
+        android:text="2. วิธีเติมคำตอบ" />
+
+    <TextView
+        android:id="@+id/txtr4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtr3"
+        android:layout_marginTop="18dp"
+        android:text="กรณี มี 1 คำตอบ สามารถกรอกคำตอบได้โดยห้ามมีการเว้นวรรค" />
+
+    <TextView
+        android:id="@+id/txtr5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtr4"
+        android:layout_marginTop="22dp"
+        android:text="กรณีมีมากกว่า 1 คำตอบ ให้กรอกคำตอบโดยคั่นระหว่างคำด้วยเครื่องหมาย &apos; , &apos; " />
+
+    <TextView
+        android:id="@+id/txtr6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtr3"
+        android:layout_below="@+id/txtr5"
+        android:layout_marginTop="19dp"
+        android:text="ตัวอย่าง" />
+
+    <TextView
+        android:id="@+id/txtr7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtr1"
+        android:layout_below="@+id/txtr6"
+        android:layout_marginTop="18dp"
+        android:text="banana,coconut,melon" />
+
+</RelativeLayout>
